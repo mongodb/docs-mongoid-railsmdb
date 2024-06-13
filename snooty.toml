@@ -8,7 +8,7 @@ intersphinx = [
 
 # toc_landing_pages = ["/paths/to/pages/that/have/nested/content"]
 
-# [constants]
+[constants]
 cli-long = "RailsMDB for Mongoid"
 cli-short = "RailsMDB"
 framework = "Ruby on Rails"
