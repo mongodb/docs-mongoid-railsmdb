@@ -1,12 +1,14 @@
 name = "mongoid-railsmdb"
 title = "RailsMDB"
 
-intersphinx = [ 
+intersphinx = [
   "https://www.mongodb.com/docs/manual/objects.inv",
-  "https://www.mongodb.com/docs/atlas/objects.inv"
+  "https://www.mongodb.com/docs/atlas/objects.inv",
 ]
 
 # toc_landing_pages = ["/paths/to/pages/that/have/nested/content"]
 
 # [constants]
-# constant = "value"
+cli-long = "RailsMDB for Mongoid"
+cli-short = "RailsMDB"
+framework = "Ruby on Rails"

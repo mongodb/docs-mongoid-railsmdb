@@ -1,0 +1,5 @@
+.. _railsmdb-get-started-connect-to-mongodb:
+
+==================
+Connect to MongoDB
+==================
