@@ -29,9 +29,9 @@ Get Started with {+cli-short+}
 Overview
 --------
 
-{+cli-short+} is a command-line utility that you can use to connect
-to and communicate with MongoDB. This guide shows you how to create an
-application that uses {+cli-short+} to connect to a MongoDB cluster hosted on
+{+cli-short+} is a command-line utility that you can use to create and manage
+Rails applications that use Mongoid and MongoDB. This guide shows you how to use
+{+cli-short+} to create an application and connect to a MongoDB cluster hosted on
 MongoDB Atlas.
 
 .. tip:: 

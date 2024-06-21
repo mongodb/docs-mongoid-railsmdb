@@ -1,0 +1,20 @@
+.. _railsmdb-get-started-next-steps:
+
+==========
+Next Steps
+==========
+
+Congratulations on completing the tutorial!
+
+In this tutorial, you created an application with {+cli-short+} that
+connects to a MongoDB deployment hosted on MongoDB Atlas.
+
+You can use Mongoid, the officially supported object-document mapper for MongoDB
+in Ruby, to work with applications built with {+cli-short+}. To learn more about
+working with Mongoid, see the official `Mongoid documentation <https://www.mongodb.com/docs/mongoid/current/>`__.
+
+.. TODO: Add learn more links when pages are done.
+.. Learn more about {+cli-short+} from the following resources:
+
+.. - Learn how to perform read operations in the :ref:`<pymongo-read>` section.
+.. - Learn how to perform write operations in the :ref:`<pymongo-write>` section.
