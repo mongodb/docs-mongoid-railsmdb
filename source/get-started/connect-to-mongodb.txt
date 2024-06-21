@@ -52,7 +52,7 @@ Connect to MongoDB
    .. step:: Generate MVC Scaffolding
 
       You can use {+cli-short+} to automatically generate a model, view, and
-      controller for a specified model.
+      controller for a specified object.
       
       In your shell, run the following command to generate the model, view and
       controller for a blog post that includes a title and a body:
