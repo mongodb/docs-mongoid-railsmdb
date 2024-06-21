@@ -61,7 +61,7 @@ Connect to MongoDB
 
          railsmdb generate scaffold Post title:string body:text
 
-      The preceding command generates the necessary files for a "posts" page,
+      The preceding command generates the necessary files for a "posts" page
       that allows you to create, update and delete blog posts.
 
    .. step:: Run your Application
@@ -73,5 +73,5 @@ Connect to MongoDB
          railsmbd server
 
       After the server is running, you can access the application by navigating
-      to `localhost:3000 <https://localhost:3000/posts>`__ in your browser. You can access the "posts" page by
+      to `localhost:3000 <https://localhost:3000>`__ in your browser. You can access the "posts" page by
       navigating to `localhost:3000/posts <https://localhost:3000>`__.
