@@ -73,5 +73,5 @@ Connect to MongoDB
          railsmbd server
 
       After the server is running, you can access the application by navigating
-      to `localhost:3000`__ in your browser. You can access the "posts" page by
-      navigating to `localhost:3000/posts`__.
+      to `localhost:3000 <https://localhost:3000/posts>`__ in your browser. You can access the "posts" page by
+      navigating to `localhost:3000/posts <https://localhost:3000>`__.
