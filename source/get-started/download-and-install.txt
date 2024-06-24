@@ -9,11 +9,9 @@ Download and Install
 
    .. step:: Install Dependencies
 
-      Ensure you have the following dependencies installed
-      in your development environment:
-      
-      - `Ruby version 3.0 or later <https://www.ruby-lang.org/en/downloads/>`__
-      - `RubyGems <https://rubygems.org/pages/download>`__
+      Ensure you have `Ruby version 3.0
+      <https://www.ruby-lang.org/en/downloads/>`__ or later installed
+      in your development environment.
 
    .. step:: Create a Project Directory
 
