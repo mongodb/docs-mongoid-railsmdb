@@ -23,15 +23,16 @@ Connect to MongoDB
    .. step:: Assign the Connection String
 
       In your shell, run the following command to navigate to the
-      ``config/mongoid.yml`` file that was automatically created in the preceding step:
+      ``config`` directory that was automatically created in the preceding step:
 
       .. code-block:: bash
 
-         cd config/mongoid.yml
+         cd config
 
-      Open the file in your editor of choice. Then, paste the 
-      connection string that you copied from the :ref:`railsmdb-get-started-connection-string`
-      step of this guide into the ``development.clients.default`` property, as
+      Within the ``config`` directory, open the ``mongoid.yml`` file in your
+      editor of choice. Then, paste the connection string that you copied from
+      the :ref:`railsmdb-get-started-connection-string` step of this guide into
+      the ``development.clients.default`` property, as
       shown in the following example:
 
       .. code-block:: yaml
@@ -54,7 +55,7 @@ Connect to MongoDB
       You can use {+cli-short+} to automatically generate a model, view, and
       controller for a specified object.
       
-      In your shell, run the following command to generate the model, view and
+      In your shell, run the following command to generate the model, view, and
       controller for a blog post that includes a title and a body:
 
       .. code-block:: bash
@@ -62,7 +63,7 @@ Connect to MongoDB
          railsmdb generate scaffold Post title:string body:text
 
       The preceding command generates the necessary files for a "posts" page
-      that allows you to create, update and delete blog posts.
+      that allows you to create, update, and delete blog posts.
 
    .. step:: Run your Application
 
@@ -72,6 +73,6 @@ Connect to MongoDB
 
          railsmbd server
 
-      After the server is running, you can access the application by navigating
+      When the server is running, you can access the application by navigating
       to `localhost:3000 <https://localhost:3000>`__ in your browser. You can access the "posts" page by
       navigating to `localhost:3000/posts <https://localhost:3000>`__.

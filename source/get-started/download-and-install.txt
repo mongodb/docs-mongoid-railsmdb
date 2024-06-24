@@ -33,7 +33,7 @@ Download and Install
    
    .. step:: Install {+cli-short+}
 
-      In your shell, run the following command to install {+cli-short+}
+      In your shell, run the following command to install {+cli-short+}:
 
       .. code-block:: bash
 
