@@ -1,0 +1,78 @@
+.. _railsmdb-get-started-connect-to-mongodb:
+
+==================
+Connect to MongoDB
+==================
+
+.. procedure::
+   :style: connected
+
+   .. step:: Create your Application
+
+      In your shell, run the following command to create a new application by
+      using {+cli-short+}:
+
+      .. code-block:: bash
+
+         railsmdb new quickstart
+
+      This command creates a new folder in your current directory called
+      ``quickstart`` and populates it with the scaffolding for a new application
+      that uses Mongoid with MongoDB.
+
+   .. step:: Assign the Connection String
+
+      In your shell, run the following command to navigate to the
+      ``config`` directory that was automatically created in the preceding step:
+
+      .. code-block:: bash
+
+         cd config
+
+      Within the ``config`` directory, open the ``mongoid.yml`` file in your
+      editor of choice. Then, paste the connection string that you copied from
+      the :ref:`railsmdb-get-started-connection-string` step of this guide into
+      the ``development.clients.default`` property, as
+      shown in the following example:
+
+      .. code-block:: yaml
+         :emphasize-lines: 4
+
+         development:
+           clients:
+             default:
+               uri: <your connection string URI>
+
+      .. note::
+
+         To use this method to connect your application to your MongoDB Atlas
+         deployment, you must remove the automatically generated
+         ``development.clients.database`` and ``development.clients.hosts``
+         properties.
+
+   .. step:: Generate MVC Scaffolding
+
+      You can use {+cli-short+} to automatically generate a model, view, and
+      controller for a specified object.
+      
+      In your shell, run the following command to generate the model, view, and
+      controller for a blog post that includes a title and a body:
+
+      .. code-block:: bash
+
+         railsmdb generate scaffold Post title:string body:text
+
+      The preceding command generates the necessary files for a "posts" page
+      that allows you to create, update, and delete blog posts.
+
+   .. step:: Run your Application
+
+      In your shell, run the following command to start the application server:
+
+      .. code-block:: bash
+
+         railsmbd server
+
+      When the server is running, you can access the application by navigating
+      to `localhost:3000 <https://localhost:3000>`__ in your browser. You can access the "posts" page by
+      navigating to `localhost:3000/posts <https://localhost:3000>`__.

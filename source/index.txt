@@ -1,10 +1,29 @@
-====================
-Railsmdb for Mongoid
-====================
+========
+{+cli-short+}
+========
 
-.. default-domain:: mongodb
 
-Your words here. Don't forget to add a toctree!
+.. facet::
+   :name: programming_language
+   :values: ruby
 
-Have a lovely day!
+.. meta::
+   :keywords: home
 
+.. toctree::
+
+   Get Started </get-started>
+
+Introduction
+------------
+
+Welcome to the documentation site for {+cli-long+}. {+cli-short+} is a
+command-line utility for creating, updating, managing, and maintaining Rails
+applications that use Mongoid and MongoDB. {+cli-short+} is an extension of the ``rails``
+command from {+framework+}.
+
+Get Started
+-----------
+
+Learn how to install {+cli-short+}, establish a connection to MongoDB and begin
+working with data in the :ref:`railsmdb-get-started` tutorial.
