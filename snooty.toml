@@ -1,5 +1,6 @@
 name = "mongoid-railsmdb"
 title = "RailsMDB"
+eol = true
 
 intersphinx = [
   "https://www.mongodb.com/docs/manual/objects.inv",
@@ -12,3 +13,10 @@ toc_landing_pages = ["/get-started"]
 cli-long = "RailsMDB for Mongoid"
 cli-short = "RailsMDB"
 framework = "Ruby on Rails"
+
+[[banners]]
+targets = ["*"]
+variant = "info"
+value = """\
+This version of the documentation is archived and no longer supported. View the `current Mongoid documentation <https://www.mongodb.com/docs/mongoid/current/>`__ to learn how to use Mongoid with Ruby on Rails.\
+"""
