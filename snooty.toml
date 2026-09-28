@@ -1,5 +1,6 @@
 name = "mongoid-railsmdb"
 title = "RailsMDB"
+eol = true
 
 intersphinx = [ 
   "https://www.mongodb.com/docs/manual/objects.inv",
@@ -10,3 +11,10 @@ intersphinx = [
 
 # [constants]
 # constant = "value"
+
+[[banners]]
+targets = ["*"]
+variant = "info"
+value = """\
+This version of the documentation is archived and no longer supported. View the `current Mongoid documentation <https://www.mongodb.com/docs/mongoid/current/>`__ to learn how to use Mongoid with Ruby on Rails.\
+"""
